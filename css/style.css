@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+.conteiner-img{
+    width:auto;
+    height:100vh;
+    display:inline-block;
+
+
+}
+
+.beach{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    background-color: lightgray;
+    left:0;
+    bottom:352px;
+    color: white;
+    padding:3px;
+}
