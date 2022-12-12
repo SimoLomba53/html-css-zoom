@@ -42,11 +42,20 @@ header span{
 
 
 footer{
-    width:100vw;
-    height:100px;
+    width:auto;
+    max-height:300px;
     background-color: grey;
     display:flex;
     justify-content:space-between;
     flex-direction:row;
     color: white;
 }
+
+.first{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    align-items:center;
+}
+
+
