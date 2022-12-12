@@ -4,7 +4,11 @@ body{
 
 header{
     width:auto;
-    height:100px;
+    height:80px;
+    position:fixed;
+    z-index:1;
+    background-color: black;
+    width:100%;
 }
 
 header span{
@@ -25,12 +29,14 @@ header span{
     margin-top:100px;
     position:relative;
     left:40px;
+    top:100px;
 }
-
+/*immagine relativa alla spiaggia*/
 .beach{
     margin-top:5px;
 }
 
+/*nome online su zoom*/
 .name{
     position: absolute;
     background-color: lightgray;
@@ -47,15 +53,32 @@ footer{
     background-color: grey;
     display:flex;
     justify-content:space-between;
-    flex-direction:row;
     color: white;
+    padding:15px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+
 }
 
 .first{
     display:flex;
-    flex-direction:row;
-    gap:10px;
-    align-items:center;
+    gap:30px;
 }
 
+.icon{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    
+}
 
+#green-share{
+    color:greenyellow;
+}
+
+#red-end{
+    color:red;
+    background-color: silver;
+    padding:10px;
+}
