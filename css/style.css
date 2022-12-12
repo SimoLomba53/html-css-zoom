@@ -7,8 +7,19 @@ header{
     height:100px;
 }
 
+header span{
+    color: white;
+    background-color:lightgray;
+    padding:5px;
+    position:relative;
+    left: 1750px;
+    top:10px;
+    border-radius:5px;
+    
+}
+
 .conteiner-img{
-    width:100wv;
+    width:100vw;
     height:100vh;
     display:inline;
     margin-top:100px;
@@ -17,7 +28,7 @@ header{
 }
 
 .beach{
-    
+    margin-top:5px;
 }
 
 .name{
@@ -27,4 +38,15 @@ header{
     bottom:4px;
     color: white;
     padding:3px;
+}
+
+
+footer{
+    width:100vw;
+    height:100px;
+    background-color: grey;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    color: white;
 }
